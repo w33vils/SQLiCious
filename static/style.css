@@ -1,0 +1,48 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    font-size: 28px;
+    color: #ff3366;
+}
+
+.message {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.laughing-gif {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* Add styling for the retry button */
+.retry-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0078D4;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.retry-button:hover {
+    background-color: #005A9E;
+}
